@@ -1,7 +1,16 @@
 # Information
 site_name: Onyx Federation
 site_description: 'Onyx Federation Services Documentation'
+site_url: 'https://github.com/onyxfed/docs'
 
+# Repository
+repo_name: 'onyxfed/docs'
+repo_url: 'https://github.com/onyxfed/docs'
+
+# Copyright
+copyright: 'Copyright &copy; 2015 - 2018 Eduardo Cortinas'
+
+# Documentation TOC
 pages:
     - Home: index.md
     - Alliance Auth:
@@ -16,3 +25,8 @@ theme:
 # Customization  
 markdown_extensions:
     - admonition
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/onyxfed/docs'
