@@ -1,0 +1,899 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Onyx Federation Services Documentation">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.3">
+    
+    
+      
+        <title>Mumble - Onyx Federation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.8d40d89b.css">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <a href="#mumble" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="Onyx Federation" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Onyx Federation
+              </span>
+              <span class="md-header-nav__topic">
+                Mumble
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
+    Onyx Federation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Alliance Auth
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Alliance Auth
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../allianceauth/registration/" title="Registration" class="md-nav__link">
+      Registration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../allianceauth/services/" title="Services" class="md-nav__link">
+      Services
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Mumble
+      </label>
+    
+    <a href="./" title="Mumble" class="md-nav__link md-nav__link--active">
+      Mumble
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mumble-quick-connect-guide" title="Mumble Quick Connect Guide" class="md-nav__link">
+    Mumble Quick Connect Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-mumble" title="Setting Up Mumble" class="md-nav__link">
+    Setting Up Mumble
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#audio-tuning-wizard" title="Audio Tuning Wizard" class="md-nav__link">
+    Audio Tuning Wizard
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#push-to-talk" title="Push-to-talk" class="md-nav__link">
+    Push-to-talk
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-to-speech" title="Text-to-Speech" class="md-nav__link">
+    Text-to-Speech
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connecting-to-the-onyx-federation-server" title="Connecting to the Onyx Federation Server" class="md-nav__link">
+    Connecting to the Onyx Federation Server
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#speaker-and-microphone-choices" title="Speaker and Microphone Choices" class="md-nav__link">
+    Speaker and Microphone Choices
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-onyx-federation-mumble" title="Using the Onyx Federation Mumble" class="md-nav__link">
+    Using the Onyx Federation Mumble
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notificiations" title="Notificiations" class="md-nav__link">
+    Notificiations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mumble-overlay" title="Mumble Overlay" class="md-nav__link">
+    Mumble Overlay
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overlay-on-windows-10" title="Overlay on Windows 10" class="md-nav__link">
+    Overlay on Windows 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlay-on-linux" title="Overlay on Linux" class="md-nav__link">
+    Overlay on Linux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlay-on-mac" title="Overlay on Mac" class="md-nav__link">
+    Overlay on Mac
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#version-123a" title="Version 1.2.3.a" class="md-nav__link">
+    Version 1.2.3.a
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-the-overlay" title="Installing the Overlay" class="md-nav__link">
+    Installing the Overlay
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-overlay" title="Configuring Overlay" class="md-nav__link">
+    Configuring Overlay
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" title="Troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-can-login-to-other-servers-but-not-the-ony-server" title="I can login to other servers but not the ONY server!" class="md-nav__link">
+    I can login to other servers but not the ONY server!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#server-connection-failed-the-remote-host-closed-the-connection" title=""Server connection failed: The remote host closed the connection."" class="md-nav__link">
+    "Server connection failed: The remote host closed the connection."
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#i-continue-getting-the-message-server-connection-failed-the-remote-host-closed-the-connection" title="I continue getting the message "Server connection failed: The remote host closed the connection."" class="md-nav__link">
+    I continue getting the message "Server connection failed: The remote host closed the connection."
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fallback-to-discord-should-mumble-go-down" title="Fallback to Discord, should Mumble go down" class="md-nav__link">
+    Fallback to Discord, should Mumble go down
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mumble-quick-connect-guide" title="Mumble Quick Connect Guide" class="md-nav__link">
+    Mumble Quick Connect Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-mumble" title="Setting Up Mumble" class="md-nav__link">
+    Setting Up Mumble
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#audio-tuning-wizard" title="Audio Tuning Wizard" class="md-nav__link">
+    Audio Tuning Wizard
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#push-to-talk" title="Push-to-talk" class="md-nav__link">
+    Push-to-talk
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-to-speech" title="Text-to-Speech" class="md-nav__link">
+    Text-to-Speech
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connecting-to-the-onyx-federation-server" title="Connecting to the Onyx Federation Server" class="md-nav__link">
+    Connecting to the Onyx Federation Server
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#speaker-and-microphone-choices" title="Speaker and Microphone Choices" class="md-nav__link">
+    Speaker and Microphone Choices
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-onyx-federation-mumble" title="Using the Onyx Federation Mumble" class="md-nav__link">
+    Using the Onyx Federation Mumble
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notificiations" title="Notificiations" class="md-nav__link">
+    Notificiations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mumble-overlay" title="Mumble Overlay" class="md-nav__link">
+    Mumble Overlay
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overlay-on-windows-10" title="Overlay on Windows 10" class="md-nav__link">
+    Overlay on Windows 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlay-on-linux" title="Overlay on Linux" class="md-nav__link">
+    Overlay on Linux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlay-on-mac" title="Overlay on Mac" class="md-nav__link">
+    Overlay on Mac
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#version-123a" title="Version 1.2.3.a" class="md-nav__link">
+    Version 1.2.3.a
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-the-overlay" title="Installing the Overlay" class="md-nav__link">
+    Installing the Overlay
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-overlay" title="Configuring Overlay" class="md-nav__link">
+    Configuring Overlay
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" title="Troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-can-login-to-other-servers-but-not-the-ony-server" title="I can login to other servers but not the ONY server!" class="md-nav__link">
+    I can login to other servers but not the ONY server!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#server-connection-failed-the-remote-host-closed-the-connection" title=""Server connection failed: The remote host closed the connection."" class="md-nav__link">
+    "Server connection failed: The remote host closed the connection."
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#i-continue-getting-the-message-server-connection-failed-the-remote-host-closed-the-connection" title="I continue getting the message "Server connection failed: The remote host closed the connection."" class="md-nav__link">
+    I continue getting the message "Server connection failed: The remote host closed the connection."
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fallback-to-discord-should-mumble-go-down" title="Fallback to Discord, should Mumble go down" class="md-nav__link">
+    Fallback to Discord, should Mumble go down
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="mumble">Mumble</h1>
+<p>Mumble is a third-party VOIP (Voice Over Internet Protocol) application that allows people to communicate verbally both in- and out-of-game.</p>
+<p>Mumble is mostly used in two situations: PvP and Alerts. In PvP, it is most useful because; for example, it is faster to call out a primary target than to type it, especially with PvP related to lag. Alert wise, mumble can be used to provide a quick and efficient response to those in distress.</p>
+<h2 id="mumble-quick-connect-guide">Mumble Quick Connect Guide</h2>
+<hr />
+<p>The set-up instructions are as follows:</p>
+<p>Download Mumble from <a href="http://wiki.mumble.info">http://wiki.mumble.info</a>. Versions for many different operating systems are available.</p>
+<ol>
+<li>Install and set it up - starting Mumble for the first time will start two wizards, for certificates and audio tuning. See the <a href="https://wiki.mumble.info/wiki/FAQ">FAQ</a> if you have any issues.</li>
+<li>You must set a push-to-talk key - do not use voice activation.</li>
+<li>Click on Server &gt; Connect &gt; Add New... and create a server using the details below:</li>
+</ol>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Servername</td>
+<td align="center">Onyx Federation</td>
+</tr>
+<tr>
+<td align="center">Address</td>
+<td align="center">voice.onyxfed.space</td>
+</tr>
+<tr>
+<td align="center">Port</td>
+<td align="center">64738 (default)</td>
+</tr>
+<tr>
+<td align="center">Username</td>
+<td align="center"><em>&lt;Your username that was generated for you on the auth site. [mumble service]></em></td>
+</tr>
+<tr>
+<td align="center">Password</td>
+<td align="center"><em>&lt;Your password that was generated for you on the auth site. [mumble service]></em></td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<p>A more detailed guide to set-up and troubleshooting is below, along with how to get the overlay to work.</p>
+<h2 id="setting-up-mumble">Setting Up Mumble</h2>
+<hr />
+<h3 id="audio-tuning-wizard">Audio Tuning Wizard</h3>
+<p>When you run Mumble the first time, an Audio Tuning Wizard is presented to you. If you skip or miss it on the first run you can retake the wizard by clicking Configure &gt; Audio Wizard. It is recommended you go through it carefully, since setting up Mumble correctly will make your and everyone else's life much easier (going through the Audio Tuning Wizard properly will also normalise everyone's voices, such that everyone will sound the same volume regardless of how they have their microphone set up).  However there are two things to pay close attention to:</p>
+<h4 id="push-to-talk">Push-to-talk</h4>
+<p><img alt="Imgur" src="https://i.imgur.com/myVt34M.png" /></p>
+<p>When you reach a screen that looks like the one above select the top radio button, click on the box on the same line and press the key you you want to use as the push-to-talk key.This is your normal push-to-talk key; for certain Fleet roles you may need more than one (see the comments in the Fleet channels), but for general ONY activity one is sufficient.</p>
+<h4 id="text-to-speech">Text-to-Speech</h4>
+<p><img alt="Imgur" src="https://i.imgur.com/uQZIRy1.png" /></p>
+<p>When you reach a screen that looks like the one above, it is recommended that you disable the text to speech notifications.</p>
+<h3 id="connecting-to-the-onyx-federation-server">Connecting to the Onyx Federation Server</h3>
+<p>Once Mumble is all set up and you have run through the Audio Tuning Wizard, you will want to connect to the Onyx Federation server.  </p>
+<ol>
+<li>Go to Server in the toolbar --&gt; Connect.</li>
+<li>Click the Add New... button in the bottom right.</li>
+<li>Put anything you like in the Label box ("Onyx Federation" seems sensible), the Address box needs to be voice.onyxfed.org and the Port needs to be left as default (64738).</li>
+<li>The Username box needs to be the exact username generated for you on the auth site, which also happens to be your exact character name with spaces replaced by underscores.</li>
+<li>Click the Connect button.</li>
+<li>The server will reject your connection, and prompt you with a Wrong Password box.  You need to use the password that was generated for you on the auth site or the one you changed it to, in the box, then click OK.</li>
+</ol>
+<h4 id="speaker-and-microphone-choices">Speaker and Microphone Choices</h4>
+<p>When you went through the wizard set-up, you may have left the microphone and speaker choices on "default." This is a normal thing to do, and it means that mumble will send sound out through your normal speaker, and listen on your normal microphone. For many players this will work fine.</p>
+<p>If the sound is coming from the wrong speaker, though, like for example your computer speaker instead of your headphones; or if your voice is not coming through clear and strong when you do the microphone check, you may want to change those default settings.</p>
+<ul>
+<li>First open Mumble Preferences.</li>
+<li>To change microphones, click on Audio Input. This is the first item in the Preferences, and is also the page where you set the Push-To-Talk key. At the top of the page is the word "Device" and next to it is a menu list of all the audio input devices connected to your computer. These may have strange names ... mine are things like "USB Audio CODEC" and "Mic 96K" ... so you may just have to click each one and do the microphone check to pick the one that works best.</li>
+<li>To change speakers, click on Audio Output. Again it says "Device" at the top and there is a menu list. There should be at least two devices on this list: your computer's speakers, and your headphones. If you're not sure which is which, try each one with a microphone check until the sound comes out where you want it to.</li>
+</ul>
+<p>Note: if you want to listen to Mumble through your computer speakers, the slider labeled "Attenuate Applications By..." will reduce the sound of the EVE game (and any other apps that might be running) by the percentage you choose - but only when Mumble is active. This lets Mumble talk stand out from the sounds of combat and such.</p>
+<h2 id="using-the-onyx-federation-mumble">Using the Onyx Federation Mumble</h2>
+<hr />
+<h3 id="notificiations">Notificiations</h3>
+<p>In the Configure --&gt; Settings screen you can find Advanced settings checkbox in the bottom left corner. With it checked you can access the Messages settings. From there you can disable popup and sound notifications about events you don't care about.  By default Mumble makes a loud PING and gives you a notification popup for almost any event on the server - this gets annoying pretty fast.</p>
+<p>Mac version: From the Mumble --&gt; Preferences window (make sure the 'Advanced' checkbox in the upper right is checked), select the 'Messages' tab. The only way to eliminate audio notifications is to uncheck items in the 'Soundfile' column.</p>
+<h2 id="mumble-overlay">Mumble Overlay</h2>
+<hr />
+<p>Mumble provides a very handy and customizable overlay. To configure it go to Configure --&gt; Settings --&gt; Overlay option.</p>
+<p>Mumble, being the awesome program that it is, shows in this window an example of what the overlay will look like on your current desktop, as well as instructions on how to alter it.  One position that works very well is just to the right of the current location name, like the screenshot on the right.  You could even put it above the current location, but then - for me at least - it's too small to see easily.</p>
+<p>The default setting is for the Overlay to display the name of everyone currently in the channel.  As you can imagine, this gets unwieldy very quickly.  To change this, right-click on the small example overlay in the window, choose Filter &gt;, and tick Only talking.  Also untick Always show yourself, otherwise your name will constantly be displayed on the overlay.</p>
+<p>The Edit... option on the right-click menu produces a detailed configuration screen where you can change pretty much anything you like about the overlay: colours, sizes, backgrounds, avatars, etc.</p>
+<p>If your overlay is not showing up, it might be because you started Mumble whilst EVE was already running. If necessary simply restart EVE. If the overlay is still not showing, check the troubleshooting section below.</p>
+<p><img alt="Imgur" src="https://i.imgur.com/0NwbQLb.png" /></p>
+<h3 id="overlay-on-windows-10">Overlay on Windows 10</h3>
+<p>The Mumble Overlay often doesn’t work on the EVE client with Windows 10 without some additional work. Many of the usual work-arounds won’t fix the problem. A reliable fix that is compatible with DirectX 11 can be done with the following two steps.</p>
+<ol>
+<li>Download and install the current Mumble Snapshot from <a href="http://wiki.mumble.info/">http://wiki.mumble.info/</a>. Use the Development Snapshot version instead of the Stable Release version and use the first listed (“Windows” -- Do Not use the “Windows x64” version). You can install the Snapshot version over your current version of Mumble. You don’t have uninstall the current version first.</li>
+<li>Next, put the location of the EVE client, “exefile.exe”, into the Mumble Overlay Whitelist. To find the Whitelist, open the Mumble Configuration (Menu: Configure/Settings or the Gear icon). Then select Overlay on the left side menu. Next select the Overlay exceptions and click on the Whitelist. Use the Add button at the bottom to add the location of your exefile.exe. The familiar Open File window will allow you to find the path, select the file, and add it to the Whitelist.</li>
+</ol>
+<p><img align="right" src="https://i.imgur.com/vcWSAhc.jpg"></p>
+<p>If you don’t know where your "exefile.exe" file is located, go to the EVE Launcher, open the dropdown menu from the top right corner, and select the Shared Cache option. The pop-up window will show the full path of the Shared Cache folder and the Tranquility exefile.exe will be located in the "\SharedCache\tq\bin folder". </p>
+<p>The file might be located in the "ProgramData" folder which is a hidden folder. You might have to unhide it using File Explorer. If you want to add the path for the Singularity or Duality test servers, add the path that contains “\SharedCache\sisi\bin\exefile.exe” or “\SharedCache\duality\bin\exefile.exe” instead of "\SharedCache\tq\bin\exefile.exe".</p>
+<h3 id="overlay-on-linux">Overlay on Linux</h3>
+<p>To actually display the overlay over EVE in Linux after you've enabled it in Mumble's settings you need to have Mumble launched first and then run mumble-overlay in front of the wine command that you use to launch EVE. For example:</p>
+<p>mumble-overlay wine explorer /desktop=EVE,1600x1200 "C:\Program Files\CCP\EVE\eve.exe"</p>
+<p>If you use a WINEPREFIX, then you would insert it after the WINEPREFIX variable like so:</p>
+<p>WINEPREFIX=/home/username/bin/wine/wine-eve/ mumble-overlay wine explorer /desktop=EVE,3200x1180 "C:\Program Files\CCP\EVE\eve.exe"</p>
+<h3 id="overlay-on-mac">Overlay on Mac</h3>
+<p>The overlay in the 1.2.3a stable release works with Mac OS X 10.7 (Lion), but not with Mac OS X 10.6 (Snow Leopard). You'll need to install the developer snapshot from <a href="http://mumble.sourceforge.net/">http://mumble.sourceforge.net/</a> to get a working overlay in Snow Leopard.</p>
+<p>In all cases, it is essential that Mumble be running before the EVE client is started for the overlay to work in EVE.</p>
+<h4 id="version-123a">Version 1.2.3.a</h4>
+<h4 id="installing-the-overlay">Installing the Overlay</h4>
+<ol>
+<li>After downloading and mounting the Mumble install dmg, drag and drop the Mumble application into the folder of your choice.</li>
+<li>Launch Mumble.</li>
+<li>Click Mumble -&gt; Preferences… and go to the Overlay section in the Preferences window that opens.</li>
+<li>Click the [Install Mumble Overlay] button. If prompted, authenticate using an account with Admin rights.<ul>
+<li>The window will update once the overlay is installed.</li>
+</ul>
+</li>
+<li>Tick the [Enable Overlay] checkbox if it's not already ticked.</li>
+<li>Click [OK] to close the Preferences window.</li>
+</ol>
+<p>Congratulations, you now have a working overlay! Well, kind of. You'll probably want to make some configuration changes.</p>
+<h3 id="configuring-overlay">Configuring Overlay</h3>
+<ol>
+<li>With the Mumble application still running, launch EVE.</li>
+<li>If you run EVE in full-screen mode, press the [Command]+[Enter] keys to put it into windowed mode.</li>
+<li>Switch to Mumble and click Mumble -&gt; Preferences… and go back to the Overlay section.</li>
+<li>In the Layout tab in the bottom half of the window, use the screen preview to:<ol>
+<li>Move the red dot to anchor the overlay where you want it.</li>
+<li>Hover the mouse over the overlay and scroll in/out to increase/decrease the size of the overlay.</li>
+<li>Right-click the overlay and in the Filter menu check [Only Talking] (or [Talking and recently active]) and uncheck [Always show yourself].</li>
+<li>Adjust other settings as desired. Right-click the overly and select Edit to customise the look of the overlay (e.g., background and font colour for the talk/shout/whisper).</li>
+</ol>
+</li>
+<li>Click Ok to save the changes.</li>
+<li>With Mumble running in the background, you can now switch back to EVE. Press [Command]+[Enter] if you want to put EVE in full-screen mode.</li>
+<li>Your overlay is now setup and you are ready to go!</li>
+</ol>
+<p>Again - be sure to start Mumble first before EVE from here on out.</p>
+<p>"In the EVE settings make sure that you have checked "Use Multithreaded OpenGL"'. Without it the overlay will not work in EVE and will crash the client on startup.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<hr />
+<p>The Mumble FAQ on the Mumble homepage - <a href="http://mumble.sourceforge.net/FAQ">http://mumble.sourceforge.net/FAQ</a> - has a lot of useful information, and also has a section on Common Problems and Resolutions which may be helpful.</p>
+<h3 id="i-can-login-to-other-servers-but-not-the-ony-server">I can login to other servers but not the ONY server!</h3>
+<p>The Mumble download comes with a "backwards-compatible" version.  That program won't work with our server.  Use the up-to-date version. </p>
+<h3 id="server-connection-failed-the-remote-host-closed-the-connection">"Server connection failed: The remote host closed the connection."</h3>
+<p>Third-party certificates (for example the free one from <a href="../[https://www.startssl.com">https://www.startssl.com</a> that Mumble suggests using) do not work with the Onyx Federation Mumble server. Create a new certificate from within Mumble and you should be properly prompted for your password when initially connecting.</p>
+<h3 id="i-continue-getting-the-message-server-connection-failed-the-remote-host-closed-the-connection">I continue getting the message "Server connection failed: The remote host closed the connection."</h3>
+<p>Click on the Mumble menu: Configure/Settings and a popup window appears. Click on Network and be sure to UNcheck the [ ] Use Quality of Service (QoS) box. Now click Apply at the bottom right then click OK. The window will close and you will be connected to your server.</p>
+<h2 id="fallback-to-discord-should-mumble-go-down">Fallback to Discord, should Mumble go down</h2>
+<hr />
+<p>Not required, just recommended.</p>
+<p>Sometimes Mumble goes down, and sometimes ONY is at war (when anyone undocked should be capable of at least listening in Mumble), or you might be in the middle of a fleet op in null-sec. To prepare for the eventuality that they happen at once, it would make sense to prepare by setting up your Discord account on the auth site and configuring your Discord properly.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../allianceauth/services/" title="Services" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Services
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.b438e6c5.js"></script>
+      
+      <script>app.initialize({version:"0.17.3",url:{base:"../../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
