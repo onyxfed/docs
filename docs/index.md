@@ -6,7 +6,7 @@ This site is intended to help you better understand how to gain access and use a
     
     Great software is coupled with even greater documentation. If you would like to contribute to making this 
     documentation even better, please don't hesitate to fork the 
-    [documentation repository](https://github.com/eveseat/docs) and submit a pull request with your contribution. 
+    [documentation repository](https://github.com/onyxfed/docs) and submit a pull request with your contribution. 
     We are always looking for better information.
 
 ## Feedback

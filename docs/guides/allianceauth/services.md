@@ -20,7 +20,7 @@ Mumble will create a username and password for you to use when setting up your M
 
 To change your password hit the yellow pencil box and change it to whatever you want. Should you forget your mumble password at anytime, you can come back here to change it again.
 
-For detailed instruction on setting up Mumble and the server, go to [Mumble Page]
+For detailed instruction on setting up Mumble and the server, go to the [Mumble Documentation](https://onyxfed.github.io/docs/guides/mumble/mumble/)
 
 ## Discord
 
