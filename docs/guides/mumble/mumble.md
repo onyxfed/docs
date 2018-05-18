@@ -22,8 +22,8 @@ Download Mumble from [http://wiki.mumble.info](http://wiki.mumble.info). Version
 | Servername | Onyx Federation                                                                  |
 | Address    | voice.onyxfed.space                                                              |
 | Port       | 64738 (default)                                                                  |
-| Username   | *<Your username that was generated for you on the auth site. [mumble service]\>* |
-| Password   | *<Your password that was generated for you on the auth site. [mumble service]\>* |
+| Username   | *<Your username that was generated for you on the auth site. [mumble service](https://onyxfed.github.io/docs/guides/allianceauth/services/#mumble)\>* |
+| Password   | *<Your password that was generated for you on the auth site. [mumble service](https://onyxfed.github.io/docs/guides/allianceauth/services/#mumble)\>* |
 
 </center>
 
@@ -178,4 +178,4 @@ Click on the Mumble menu: Configure/Settings and a popup window appears. Click o
 
 Not required, just recommended.
 
-Sometimes Mumble goes down, and sometimes ONY is at war (when anyone undocked should be capable of at least listening in Mumble), or you might be in the middle of a fleet op in null-sec. To prepare for the eventuality that they happen at once, it would make sense to prepare by setting up your Discord account on the auth site and configuring your Discord properly.
+Sometimes Mumble goes down, and sometimes ONY is at war (when anyone undocked should be capable of at least listening in Mumble), or you might be in the middle of a fleet op in null-sec. To prepare for the eventuality that they happen at once, it would make sense to prepare by setting up your Discord account on the auth site and [configuring your Discord](https://onyxfed.github.io/docs/guides/allianceauth/services/#discord) properly.
