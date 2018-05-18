@@ -1,0 +1,199 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Onyx Federation Services\n\n\nThis site is intended to help you better understand how to gain access and use alliance services. The process is fairly simple, but it is always easier with pictures. \n\n\n\n\nContributing to Documentation\n\n\nGreat software is coupled with even greater documentation. If you would like to contribute to making this \ndocumentation even better, please don't hesitate to fork the \n\ndocumentation repository\n and submit a pull request with your contribution. \nWe are always looking for better information.\n\n\n\n\nFeedback\n\n\nFeedback and suggestions on alliance services are always welcome, refer to the contact page on how to reach me.\n\n\nDonate\n\n\nI keep things going as a courtesy and convenience for our alliance so any help in keeping your services up and running is greatly appreciated. You can donate at \nPayPal\n. All donations go to maintaining alliance services and nothing else.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-onyx-federation-services", 
+            "text": "This site is intended to help you better understand how to gain access and use alliance services. The process is fairly simple, but it is always easier with pictures.    Contributing to Documentation  Great software is coupled with even greater documentation. If you would like to contribute to making this \ndocumentation even better, please don't hesitate to fork the  documentation repository  and submit a pull request with your contribution. \nWe are always looking for better information.", 
+            "title": "Welcome to Onyx Federation Services"
+        }, 
+        {
+            "location": "/#feedback", 
+            "text": "Feedback and suggestions on alliance services are always welcome, refer to the contact page on how to reach me.", 
+            "title": "Feedback"
+        }, 
+        {
+            "location": "/#donate", 
+            "text": "I keep things going as a courtesy and convenience for our alliance so any help in keeping your services up and running is greatly appreciated. You can donate at  PayPal . All donations go to maintaining alliance services and nothing else.", 
+            "title": "Donate"
+        }, 
+        {
+            "location": "/guides/allianceauth/registration/", 
+            "text": "Registration\n\n\nInitial Setup\n\n\nGo to \nhttps://onyxfed.space\n. \n\n\nAt the login screen hit the SSO button and login with your main character that is in alliance.\n\n\n\n\nYou will be promted to input an email address. This is strictly for services setup and will not be used in any other manner.\n\n\n\n\nOnce you submit your email you will be redirected to you dashboard page for the auth site. The site will automatically place you in the correct groups giving you access to certain features of the site.", 
+            "title": "Registration"
+        }, 
+        {
+            "location": "/guides/allianceauth/registration/#registration", 
+            "text": "", 
+            "title": "Registration"
+        }, 
+        {
+            "location": "/guides/allianceauth/registration/#initial-setup", 
+            "text": "Go to  https://onyxfed.space .   At the login screen hit the SSO button and login with your main character that is in alliance.   You will be promted to input an email address. This is strictly for services setup and will not be used in any other manner.   Once you submit your email you will be redirected to you dashboard page for the auth site. The site will automatically place you in the correct groups giving you access to certain features of the site.", 
+            "title": "Initial Setup"
+        }, 
+        {
+            "location": "/guides/allianceauth/services/", 
+            "text": "Services\n\n\nMumble and Discord\n\n\nIn order to gain access and roles to our Mumble and Discord servers you must activate the sevices on the site. Mumble is mandatory per alliance policy, but Discord is optional.\n\n\nClick the services button on your dashboard or got to \nhttps://onyxfed.space/services\n.\n\n\n\n\nOnce at the services page, hit the yellow checkmark boxes for both discord and mumble.\n\n\n\n\nMumble\n\n\nMumble will create a username and password for you to use when setting up your Mumble sever. The username needs to be exactly what is generated for you. Hit the continue button to create the account.\n\n\n\n\nTo change your password hit the yellow pencil box and change it to whatever you want. Should you forget your mumble password at anytime, you can come back here to change it again.\n\n\nFor detailed instruction on setting up Mumble and the server, go to [Mumble Page]\n\n\nDiscord\n\n\nDiscord is fairly simple to set up, but can be a little tricky when getting roles on the server.\n\n\n\n\nWarning\n\n\nIf you are already on the server for Onyx Federation, it is suggested that you leave it before performing the steps below as it may not always give you proper roles.\n\n\n\n\nDiscord will redirect you to the server authorization page automatically to get you setup as well as join the server for you. Hit the authorize button.\n\n\n\n\nOnce you do that it will assign your roles for your account. That's pretty much it.\n\n\nDiscord Troubleshooting\n\n\nIt didn't give me roles\n\n\nGo ahead and hit the grey refresh button on the services page where you activated discord.\n\n\nStill not working\n\n\nLeave the discord server completley, go back to the services page and hit the red x button, try again.\n\n\nI give up\n\n\nContact Aegis Niminen in-game or send an email to onyxfed@gmail.com.", 
+            "title": "Services"
+        }, 
+        {
+            "location": "/guides/allianceauth/services/#services", 
+            "text": "", 
+            "title": "Services"
+        }, 
+        {
+            "location": "/guides/allianceauth/services/#mumble-and-discord", 
+            "text": "In order to gain access and roles to our Mumble and Discord servers you must activate the sevices on the site. Mumble is mandatory per alliance policy, but Discord is optional.  Click the services button on your dashboard or got to  https://onyxfed.space/services .   Once at the services page, hit the yellow checkmark boxes for both discord and mumble.", 
+            "title": "Mumble and Discord"
+        }, 
+        {
+            "location": "/guides/allianceauth/services/#mumble", 
+            "text": "Mumble will create a username and password for you to use when setting up your Mumble sever. The username needs to be exactly what is generated for you. Hit the continue button to create the account.   To change your password hit the yellow pencil box and change it to whatever you want. Should you forget your mumble password at anytime, you can come back here to change it again.  For detailed instruction on setting up Mumble and the server, go to [Mumble Page]", 
+            "title": "Mumble"
+        }, 
+        {
+            "location": "/guides/allianceauth/services/#discord", 
+            "text": "Discord is fairly simple to set up, but can be a little tricky when getting roles on the server.   Warning  If you are already on the server for Onyx Federation, it is suggested that you leave it before performing the steps below as it may not always give you proper roles.   Discord will redirect you to the server authorization page automatically to get you setup as well as join the server for you. Hit the authorize button.   Once you do that it will assign your roles for your account. That's pretty much it.", 
+            "title": "Discord"
+        }, 
+        {
+            "location": "/guides/allianceauth/services/#discord-troubleshooting", 
+            "text": "", 
+            "title": "Discord Troubleshooting"
+        }, 
+        {
+            "location": "/guides/allianceauth/services/#it-didnt-give-me-roles", 
+            "text": "Go ahead and hit the grey refresh button on the services page where you activated discord.", 
+            "title": "It didn't give me roles"
+        }, 
+        {
+            "location": "/guides/allianceauth/services/#still-not-working", 
+            "text": "Leave the discord server completley, go back to the services page and hit the red x button, try again.", 
+            "title": "Still not working"
+        }, 
+        {
+            "location": "/guides/allianceauth/services/#i-give-up", 
+            "text": "Contact Aegis Niminen in-game or send an email to onyxfed@gmail.com.", 
+            "title": "I give up"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/", 
+            "text": "Mumble\n\n\nMumble is a third-party VOIP (Voice Over Internet Protocol) application that allows people to communicate verbally both in- and out-of-game.\n\n\nMumble is mostly used in two situations: PvP and Alerts. In PvP, it is most useful because; for example, it is faster to call out a primary target than to type it, especially with PvP related to lag. Alert wise, mumble can be used to provide a quick and efficient response to those in distress.\n\n\nMumble Quick Connect Guide\n\n\n\n\nThe set-up instructions are as follows:\n\n\nDownload Mumble from \nhttp://wiki.mumble.info\n. Versions for many different operating systems are available.\n\n\n\n\nInstall and set it up - starting Mumble for the first time will start two wizards, for certificates and audio tuning. See the \nFAQ\n if you have any issues.\n\n\nYou must set a push-to-talk key - do not use voice activation.\n\n\nClick on Server \n Connect \n Add New... and create a server using the details below:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nServername\n\n\nOnyx Federation\n\n\n\n\n\n\nAddress\n\n\nvoice.onyxfed.space\n\n\n\n\n\n\nPort\n\n\n64738 (default)\n\n\n\n\n\n\nUsername\n\n\nYour username that was generated for you on the auth site. [mumble service]>\n\n\n\n\n\n\nPassword\n\n\nYour password that was generated for you on the auth site. [mumble service]>\n\n\n\n\n\n\n\n\n\n\nA more detailed guide to set-up and troubleshooting is below, along with how to get the overlay to work.\n\n\nSetting Up Mumble\n\n\n\n\nAudio Tuning Wizard\n\n\nWhen you run Mumble the first time, an Audio Tuning Wizard is presented to you. If you skip or miss it on the first run you can retake the wizard by clicking Configure \n Audio Wizard. It is recommended you go through it carefully, since setting up Mumble correctly will make your and everyone else's life much easier (going through the Audio Tuning Wizard properly will also normalise everyone's voices, such that everyone will sound the same volume regardless of how they have their microphone set up).  However there are two things to pay close attention to:\n\n\nPush-to-talk\n\n\n\n\nWhen you reach a screen that looks like the one above select the top radio button, click on the box on the same line and press the key you you want to use as the push-to-talk key.This is your normal push-to-talk key; for certain Fleet roles you may need more than one (see the comments in the Fleet channels), but for general ONY activity one is sufficient.\n\n\nText-to-Speech\n\n\n\n\nWhen you reach a screen that looks like the one above, it is recommended that you disable the text to speech notifications.\n\n\nConnecting to the Onyx Federation Server\n\n\nOnce Mumble is all set up and you have run through the Audio Tuning Wizard, you will want to connect to the Onyx Federation server.  \n\n\n\n\nGo to Server in the toolbar --\n Connect.\n\n\nClick the Add New... button in the bottom right.\n\n\nPut anything you like in the Label box (\"Onyx Federation\" seems sensible), the Address box needs to be voice.onyxfed.org and the Port needs to be left as default (64738).\n\n\nThe Username box needs to be the exact username generated for you on the auth site, which also happens to be your exact character name with spaces replaced by underscores.\n\n\nClick the Connect button.\n\n\nThe server will reject your connection, and prompt you with a Wrong Password box.  You need to use the password that was generated for you on the auth site or the one you changed it to, in the box, then click OK.\n\n\n\n\nSpeaker and Microphone Choices\n\n\nWhen you went through the wizard set-up, you may have left the microphone and speaker choices on \"default.\" This is a normal thing to do, and it means that mumble will send sound out through your normal speaker, and listen on your normal microphone. For many players this will work fine.\n\n\nIf the sound is coming from the wrong speaker, though, like for example your computer speaker instead of your headphones; or if your voice is not coming through clear and strong when you do the microphone check, you may want to change those default settings.\n\n\n\n\nFirst open Mumble Preferences.\n\n\nTo change microphones, click on Audio Input. This is the first item in the Preferences, and is also the page where you set the Push-To-Talk key. At the top of the page is the word \"Device\" and next to it is a menu list of all the audio input devices connected to your computer. These may have strange names ... mine are things like \"USB Audio CODEC\" and \"Mic 96K\" ... so you may just have to click each one and do the microphone check to pick the one that works best.\n\n\nTo change speakers, click on Audio Output. Again it says \"Device\" at the top and there is a menu list. There should be at least two devices on this list: your computer's speakers, and your headphones. If you're not sure which is which, try each one with a microphone check until the sound comes out where you want it to.\n\n\n\n\nNote: if you want to listen to Mumble through your computer speakers, the slider labeled \"Attenuate Applications By...\" will reduce the sound of the EVE game (and any other apps that might be running) by the percentage you choose - but only when Mumble is active. This lets Mumble talk stand out from the sounds of combat and such.\n\n\nUsing the Onyx Federation Mumble\n\n\n\n\nNotificiations\n\n\nIn the Configure --\n Settings screen you can find Advanced settings checkbox in the bottom left corner. With it checked you can access the Messages settings. From there you can disable popup and sound notifications about events you don't care about.  By default Mumble makes a loud PING and gives you a notification popup for almost any event on the server - this gets annoying pretty fast.\n\n\nMac version: From the Mumble --\n Preferences window (make sure the 'Advanced' checkbox in the upper right is checked), select the 'Messages' tab. The only way to eliminate audio notifications is to uncheck items in the 'Soundfile' column.\n\n\nMumble Overlay\n\n\n\n\nMumble provides a very handy and customizable overlay. To configure it go to Configure --\n Settings --\n Overlay option.\n\n\nMumble, being the awesome program that it is, shows in this window an example of what the overlay will look like on your current desktop, as well as instructions on how to alter it.  One position that works very well is just to the right of the current location name, like the screenshot on the right.  You could even put it above the current location, but then - for me at least - it's too small to see easily.\n\n\nThe default setting is for the Overlay to display the name of everyone currently in the channel.  As you can imagine, this gets unwieldy very quickly.  To change this, right-click on the small example overlay in the window, choose Filter \n, and tick Only talking.  Also untick Always show yourself, otherwise your name will constantly be displayed on the overlay.\n\n\nThe Edit... option on the right-click menu produces a detailed configuration screen where you can change pretty much anything you like about the overlay: colours, sizes, backgrounds, avatars, etc.\n\n\nIf your overlay is not showing up, it might be because you started Mumble whilst EVE was already running. If necessary simply restart EVE. If the overlay is still not showing, check the troubleshooting section below.\n\n\n\n\nOverlay on Windows 10\n\n\nThe Mumble Overlay often doesn\u2019t work on the EVE client with Windows 10 without some additional work. Many of the usual work-arounds won\u2019t fix the problem. A reliable fix that is compatible with DirectX 11 can be done with the following two steps.\n\n\n\n\nDownload and install the current Mumble Snapshot from \nhttp://wiki.mumble.info/\n. Use the Development Snapshot version instead of the Stable Release version and use the first listed (\u201cWindows\u201d -- Do Not use the \u201cWindows x64\u201d version). You can install the Snapshot version over your current version of Mumble. You don\u2019t have uninstall the current version first.\n\n\nNext, put the location of the EVE client, \u201cexefile.exe\u201d, into the Mumble Overlay Whitelist. To find the Whitelist, open the Mumble Configuration (Menu: Configure/Settings or the Gear icon). Then select Overlay on the left side menu. Next select the Overlay exceptions and click on the Whitelist. Use the Add button at the bottom to add the location of your exefile.exe. The familiar Open File window will allow you to find the path, select the file, and add it to the Whitelist.\n\n\n\n\n\n\nIf you don\u2019t know where your \"exefile.exe\" file is located, go to the EVE Launcher, open the dropdown menu from the top right corner, and select the Shared Cache option. The pop-up window will show the full path of the Shared Cache folder and the Tranquility exefile.exe will be located in the \"\\SharedCache\\tq\\bin folder\". \n\n\nThe file might be located in the \"ProgramData\" folder which is a hidden folder. You might have to unhide it using File Explorer. If you want to add the path for the Singularity or Duality test servers, add the path that contains \u201c\\SharedCache\\sisi\\bin\\exefile.exe\u201d or \u201c\\SharedCache\\duality\\bin\\exefile.exe\u201d instead of \"\\SharedCache\\tq\\bin\\exefile.exe\".\n\n\nOverlay on Linux\n\n\nTo actually display the overlay over EVE in Linux after you've enabled it in Mumble's settings you need to have Mumble launched first and then run mumble-overlay in front of the wine command that you use to launch EVE. For example:\n\n\nmumble-overlay wine explorer /desktop=EVE,1600x1200 \"C:\\Program Files\\CCP\\EVE\\eve.exe\"\n\n\nIf you use a WINEPREFIX, then you would insert it after the WINEPREFIX variable like so:\n\n\nWINEPREFIX=/home/username/bin/wine/wine-eve/ mumble-overlay wine explorer /desktop=EVE,3200x1180 \"C:\\Program Files\\CCP\\EVE\\eve.exe\"\n\n\nOverlay on Mac\n\n\nThe overlay in the 1.2.3a stable release works with Mac OS X 10.7 (Lion), but not with Mac OS X 10.6 (Snow Leopard). You'll need to install the developer snapshot from \nhttp://mumble.sourceforge.net/\n to get a working overlay in Snow Leopard.\n\n\nIn all cases, it is essential that Mumble be running before the EVE client is started for the overlay to work in EVE.\n\n\nVersion 1.2.3.a\n\n\nInstalling the Overlay\n\n\n\n\nAfter downloading and mounting the Mumble install dmg, drag and drop the Mumble application into the folder of your choice.\n\n\nLaunch Mumble.\n\n\nClick Mumble -\n Preferences\u2026 and go to the Overlay section in the Preferences window that opens.\n\n\nClick the [Install Mumble Overlay] button. If prompted, authenticate using an account with Admin rights.\n\n\nThe window will update once the overlay is installed.\n\n\n\n\n\n\nTick the [Enable Overlay] checkbox if it's not already ticked.\n\n\nClick [OK] to close the Preferences window.\n\n\n\n\nCongratulations, you now have a working overlay! Well, kind of. You'll probably want to make some configuration changes.\n\n\nConfiguring Overlay\n\n\n\n\nWith the Mumble application still running, launch EVE.\n\n\nIf you run EVE in full-screen mode, press the [Command]+[Enter] keys to put it into windowed mode.\n\n\nSwitch to Mumble and click Mumble -\n Preferences\u2026 and go back to the Overlay section.\n\n\nIn the Layout tab in the bottom half of the window, use the screen preview to:\n\n\nMove the red dot to anchor the overlay where you want it.\n\n\nHover the mouse over the overlay and scroll in/out to increase/decrease the size of the overlay.\n\n\nRight-click the overlay and in the Filter menu check [Only Talking] (or [Talking and recently active]) and uncheck [Always show yourself].\n\n\nAdjust other settings as desired. Right-click the overly and select Edit to customise the look of the overlay (e.g., background and font colour for the talk/shout/whisper).\n\n\n\n\n\n\nClick Ok to save the changes.\n\n\nWith Mumble running in the background, you can now switch back to EVE. Press [Command]+[Enter] if you want to put EVE in full-screen mode.\n\n\nYour overlay is now setup and you are ready to go!\n\n\n\n\nAgain - be sure to start Mumble first before EVE from here on out.\n\n\n\"In the EVE settings make sure that you have checked \"Use Multithreaded OpenGL\"'. Without it the overlay will not work in EVE and will crash the client on startup.\n\n\nTroubleshooting\n\n\n\n\nThe Mumble FAQ on the Mumble homepage - \nhttp://mumble.sourceforge.net/FAQ\n - has a lot of useful information, and also has a section on Common Problems and Resolutions which may be helpful.\n\n\nI can login to other servers but not the ONY server!\n\n\nThe Mumble download comes with a \"backwards-compatible\" version.  That program won't work with our server.  Use the up-to-date version. \n\n\n\"Server connection failed: The remote host closed the connection.\"\n\n\nThird-party certificates (for example the free one from \nhttps://www.startssl.com\n that Mumble suggests using) do not work with the Onyx Federation Mumble server. Create a new certificate from within Mumble and you should be properly prompted for your password when initially connecting.\n\n\nI continue getting the message \"Server connection failed: The remote host closed the connection.\"\n\n\nClick on the Mumble menu: Configure/Settings and a popup window appears. Click on Network and be sure to UNcheck the [ ] Use Quality of Service (QoS) box. Now click Apply at the bottom right then click OK. The window will close and you will be connected to your server.\n\n\nFallback to Discord, should Mumble go down\n\n\n\n\nNot required, just recommended.\n\n\nSometimes Mumble goes down, and sometimes ONY is at war (when anyone undocked should be capable of at least listening in Mumble), or you might be in the middle of a fleet op in null-sec. To prepare for the eventuality that they happen at once, it would make sense to prepare by setting up your Discord account on the auth site and configuring your Discord properly.", 
+            "title": "Mumble"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#mumble", 
+            "text": "Mumble is a third-party VOIP (Voice Over Internet Protocol) application that allows people to communicate verbally both in- and out-of-game.  Mumble is mostly used in two situations: PvP and Alerts. In PvP, it is most useful because; for example, it is faster to call out a primary target than to type it, especially with PvP related to lag. Alert wise, mumble can be used to provide a quick and efficient response to those in distress.", 
+            "title": "Mumble"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#mumble-quick-connect-guide", 
+            "text": "The set-up instructions are as follows:  Download Mumble from  http://wiki.mumble.info . Versions for many different operating systems are available.   Install and set it up - starting Mumble for the first time will start two wizards, for certificates and audio tuning. See the  FAQ  if you have any issues.  You must set a push-to-talk key - do not use voice activation.  Click on Server   Connect   Add New... and create a server using the details below:             Servername  Onyx Federation    Address  voice.onyxfed.space    Port  64738 (default)    Username  Your username that was generated for you on the auth site. [mumble service]>    Password  Your password that was generated for you on the auth site. [mumble service]>      A more detailed guide to set-up and troubleshooting is below, along with how to get the overlay to work.", 
+            "title": "Mumble Quick Connect Guide"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#setting-up-mumble", 
+            "text": "", 
+            "title": "Setting Up Mumble"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#audio-tuning-wizard", 
+            "text": "When you run Mumble the first time, an Audio Tuning Wizard is presented to you. If you skip or miss it on the first run you can retake the wizard by clicking Configure   Audio Wizard. It is recommended you go through it carefully, since setting up Mumble correctly will make your and everyone else's life much easier (going through the Audio Tuning Wizard properly will also normalise everyone's voices, such that everyone will sound the same volume regardless of how they have their microphone set up).  However there are two things to pay close attention to:", 
+            "title": "Audio Tuning Wizard"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#push-to-talk", 
+            "text": "When you reach a screen that looks like the one above select the top radio button, click on the box on the same line and press the key you you want to use as the push-to-talk key.This is your normal push-to-talk key; for certain Fleet roles you may need more than one (see the comments in the Fleet channels), but for general ONY activity one is sufficient.", 
+            "title": "Push-to-talk"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#text-to-speech", 
+            "text": "When you reach a screen that looks like the one above, it is recommended that you disable the text to speech notifications.", 
+            "title": "Text-to-Speech"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#connecting-to-the-onyx-federation-server", 
+            "text": "Once Mumble is all set up and you have run through the Audio Tuning Wizard, you will want to connect to the Onyx Federation server.     Go to Server in the toolbar --  Connect.  Click the Add New... button in the bottom right.  Put anything you like in the Label box (\"Onyx Federation\" seems sensible), the Address box needs to be voice.onyxfed.org and the Port needs to be left as default (64738).  The Username box needs to be the exact username generated for you on the auth site, which also happens to be your exact character name with spaces replaced by underscores.  Click the Connect button.  The server will reject your connection, and prompt you with a Wrong Password box.  You need to use the password that was generated for you on the auth site or the one you changed it to, in the box, then click OK.", 
+            "title": "Connecting to the Onyx Federation Server"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#speaker-and-microphone-choices", 
+            "text": "When you went through the wizard set-up, you may have left the microphone and speaker choices on \"default.\" This is a normal thing to do, and it means that mumble will send sound out through your normal speaker, and listen on your normal microphone. For many players this will work fine.  If the sound is coming from the wrong speaker, though, like for example your computer speaker instead of your headphones; or if your voice is not coming through clear and strong when you do the microphone check, you may want to change those default settings.   First open Mumble Preferences.  To change microphones, click on Audio Input. This is the first item in the Preferences, and is also the page where you set the Push-To-Talk key. At the top of the page is the word \"Device\" and next to it is a menu list of all the audio input devices connected to your computer. These may have strange names ... mine are things like \"USB Audio CODEC\" and \"Mic 96K\" ... so you may just have to click each one and do the microphone check to pick the one that works best.  To change speakers, click on Audio Output. Again it says \"Device\" at the top and there is a menu list. There should be at least two devices on this list: your computer's speakers, and your headphones. If you're not sure which is which, try each one with a microphone check until the sound comes out where you want it to.   Note: if you want to listen to Mumble through your computer speakers, the slider labeled \"Attenuate Applications By...\" will reduce the sound of the EVE game (and any other apps that might be running) by the percentage you choose - but only when Mumble is active. This lets Mumble talk stand out from the sounds of combat and such.", 
+            "title": "Speaker and Microphone Choices"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#using-the-onyx-federation-mumble", 
+            "text": "", 
+            "title": "Using the Onyx Federation Mumble"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#notificiations", 
+            "text": "In the Configure --  Settings screen you can find Advanced settings checkbox in the bottom left corner. With it checked you can access the Messages settings. From there you can disable popup and sound notifications about events you don't care about.  By default Mumble makes a loud PING and gives you a notification popup for almost any event on the server - this gets annoying pretty fast.  Mac version: From the Mumble --  Preferences window (make sure the 'Advanced' checkbox in the upper right is checked), select the 'Messages' tab. The only way to eliminate audio notifications is to uncheck items in the 'Soundfile' column.", 
+            "title": "Notificiations"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#mumble-overlay", 
+            "text": "Mumble provides a very handy and customizable overlay. To configure it go to Configure --  Settings --  Overlay option.  Mumble, being the awesome program that it is, shows in this window an example of what the overlay will look like on your current desktop, as well as instructions on how to alter it.  One position that works very well is just to the right of the current location name, like the screenshot on the right.  You could even put it above the current location, but then - for me at least - it's too small to see easily.  The default setting is for the Overlay to display the name of everyone currently in the channel.  As you can imagine, this gets unwieldy very quickly.  To change this, right-click on the small example overlay in the window, choose Filter  , and tick Only talking.  Also untick Always show yourself, otherwise your name will constantly be displayed on the overlay.  The Edit... option on the right-click menu produces a detailed configuration screen where you can change pretty much anything you like about the overlay: colours, sizes, backgrounds, avatars, etc.  If your overlay is not showing up, it might be because you started Mumble whilst EVE was already running. If necessary simply restart EVE. If the overlay is still not showing, check the troubleshooting section below.", 
+            "title": "Mumble Overlay"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#overlay-on-windows-10", 
+            "text": "The Mumble Overlay often doesn\u2019t work on the EVE client with Windows 10 without some additional work. Many of the usual work-arounds won\u2019t fix the problem. A reliable fix that is compatible with DirectX 11 can be done with the following two steps.   Download and install the current Mumble Snapshot from  http://wiki.mumble.info/ . Use the Development Snapshot version instead of the Stable Release version and use the first listed (\u201cWindows\u201d -- Do Not use the \u201cWindows x64\u201d version). You can install the Snapshot version over your current version of Mumble. You don\u2019t have uninstall the current version first.  Next, put the location of the EVE client, \u201cexefile.exe\u201d, into the Mumble Overlay Whitelist. To find the Whitelist, open the Mumble Configuration (Menu: Configure/Settings or the Gear icon). Then select Overlay on the left side menu. Next select the Overlay exceptions and click on the Whitelist. Use the Add button at the bottom to add the location of your exefile.exe. The familiar Open File window will allow you to find the path, select the file, and add it to the Whitelist.    If you don\u2019t know where your \"exefile.exe\" file is located, go to the EVE Launcher, open the dropdown menu from the top right corner, and select the Shared Cache option. The pop-up window will show the full path of the Shared Cache folder and the Tranquility exefile.exe will be located in the \"\\SharedCache\\tq\\bin folder\".   The file might be located in the \"ProgramData\" folder which is a hidden folder. You might have to unhide it using File Explorer. If you want to add the path for the Singularity or Duality test servers, add the path that contains \u201c\\SharedCache\\sisi\\bin\\exefile.exe\u201d or \u201c\\SharedCache\\duality\\bin\\exefile.exe\u201d instead of \"\\SharedCache\\tq\\bin\\exefile.exe\".", 
+            "title": "Overlay on Windows 10"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#overlay-on-linux", 
+            "text": "To actually display the overlay over EVE in Linux after you've enabled it in Mumble's settings you need to have Mumble launched first and then run mumble-overlay in front of the wine command that you use to launch EVE. For example:  mumble-overlay wine explorer /desktop=EVE,1600x1200 \"C:\\Program Files\\CCP\\EVE\\eve.exe\"  If you use a WINEPREFIX, then you would insert it after the WINEPREFIX variable like so:  WINEPREFIX=/home/username/bin/wine/wine-eve/ mumble-overlay wine explorer /desktop=EVE,3200x1180 \"C:\\Program Files\\CCP\\EVE\\eve.exe\"", 
+            "title": "Overlay on Linux"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#overlay-on-mac", 
+            "text": "The overlay in the 1.2.3a stable release works with Mac OS X 10.7 (Lion), but not with Mac OS X 10.6 (Snow Leopard). You'll need to install the developer snapshot from  http://mumble.sourceforge.net/  to get a working overlay in Snow Leopard.  In all cases, it is essential that Mumble be running before the EVE client is started for the overlay to work in EVE.", 
+            "title": "Overlay on Mac"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#version-123a", 
+            "text": "", 
+            "title": "Version 1.2.3.a"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#installing-the-overlay", 
+            "text": "After downloading and mounting the Mumble install dmg, drag and drop the Mumble application into the folder of your choice.  Launch Mumble.  Click Mumble -  Preferences\u2026 and go to the Overlay section in the Preferences window that opens.  Click the [Install Mumble Overlay] button. If prompted, authenticate using an account with Admin rights.  The window will update once the overlay is installed.    Tick the [Enable Overlay] checkbox if it's not already ticked.  Click [OK] to close the Preferences window.   Congratulations, you now have a working overlay! Well, kind of. You'll probably want to make some configuration changes.", 
+            "title": "Installing the Overlay"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#configuring-overlay", 
+            "text": "With the Mumble application still running, launch EVE.  If you run EVE in full-screen mode, press the [Command]+[Enter] keys to put it into windowed mode.  Switch to Mumble and click Mumble -  Preferences\u2026 and go back to the Overlay section.  In the Layout tab in the bottom half of the window, use the screen preview to:  Move the red dot to anchor the overlay where you want it.  Hover the mouse over the overlay and scroll in/out to increase/decrease the size of the overlay.  Right-click the overlay and in the Filter menu check [Only Talking] (or [Talking and recently active]) and uncheck [Always show yourself].  Adjust other settings as desired. Right-click the overly and select Edit to customise the look of the overlay (e.g., background and font colour for the talk/shout/whisper).    Click Ok to save the changes.  With Mumble running in the background, you can now switch back to EVE. Press [Command]+[Enter] if you want to put EVE in full-screen mode.  Your overlay is now setup and you are ready to go!   Again - be sure to start Mumble first before EVE from here on out.  \"In the EVE settings make sure that you have checked \"Use Multithreaded OpenGL\"'. Without it the overlay will not work in EVE and will crash the client on startup.", 
+            "title": "Configuring Overlay"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#troubleshooting", 
+            "text": "The Mumble FAQ on the Mumble homepage -  http://mumble.sourceforge.net/FAQ  - has a lot of useful information, and also has a section on Common Problems and Resolutions which may be helpful.", 
+            "title": "Troubleshooting"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#i-can-login-to-other-servers-but-not-the-ony-server", 
+            "text": "The Mumble download comes with a \"backwards-compatible\" version.  That program won't work with our server.  Use the up-to-date version.", 
+            "title": "I can login to other servers but not the ONY server!"
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#server-connection-failed-the-remote-host-closed-the-connection", 
+            "text": "Third-party certificates (for example the free one from  https://www.startssl.com  that Mumble suggests using) do not work with the Onyx Federation Mumble server. Create a new certificate from within Mumble and you should be properly prompted for your password when initially connecting.", 
+            "title": "\"Server connection failed: The remote host closed the connection.\""
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#i-continue-getting-the-message-server-connection-failed-the-remote-host-closed-the-connection", 
+            "text": "Click on the Mumble menu: Configure/Settings and a popup window appears. Click on Network and be sure to UNcheck the [ ] Use Quality of Service (QoS) box. Now click Apply at the bottom right then click OK. The window will close and you will be connected to your server.", 
+            "title": "I continue getting the message \"Server connection failed: The remote host closed the connection.\""
+        }, 
+        {
+            "location": "/guides/mumble/mumble/#fallback-to-discord-should-mumble-go-down", 
+            "text": "Not required, just recommended.  Sometimes Mumble goes down, and sometimes ONY is at war (when anyone undocked should be capable of at least listening in Mumble), or you might be in the middle of a fleet op in null-sec. To prepare for the eventuality that they happen at once, it would make sense to prepare by setting up your Discord account on the auth site and configuring your Discord properly.", 
+            "title": "Fallback to Discord, should Mumble go down"
+        }
+    ]
+}

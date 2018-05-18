@@ -1,0 +1,18 @@
+# Information
+site_name: Onyx Federation
+site_description: 'Onyx Federation Services Documentation'
+
+pages:
+    - Home: index.md
+    - Alliance Auth:
+        - Registration: guides/allianceauth/registration.md
+        - Services: guides/allianceauth/services.md
+    - Mumble: guides/mumble/mumble.md
+
+# Theme Configuration    
+theme:
+    name: 'material'
+
+# Customization  
+markdown_extensions:
+    - admonition
